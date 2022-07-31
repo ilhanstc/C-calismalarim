@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=c örnekleri
+PROJECTNAME=c uygulama
 
 # Active Configuration
 DEFAULTCONF=Debug

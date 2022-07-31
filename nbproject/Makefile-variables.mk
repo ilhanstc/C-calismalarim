@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=c__rnekleri
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/c__rnekleri
+CND_ARTIFACT_NAME_Debug=c_uygulama
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/c_uygulama
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=cörnekleri.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/cörnekleri.tar
+CND_PACKAGE_NAME_Debug=cuygulama.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/cuygulama.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=c__rnekleri
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/c__rnekleri
+CND_ARTIFACT_NAME_Release=c_uygulama
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/c_uygulama
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=cörnekleri.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/cörnekleri.tar
+CND_PACKAGE_NAME_Release=cuygulama.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/cuygulama.tar
 #
 # include compiler specific variables
 #
