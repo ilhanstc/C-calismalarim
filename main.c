@@ -17,28 +17,28 @@
  * 
  */
 int main() {
-/*
-    // DERS 22 
-    //KLAVYEDEN GİRİLEN EN VE BOY DEGERLERİNE GÖRE İÇİ DOLU DÖRTGEN
-    int en,boy,i,j;
-    printf("En degeri:");
-    scanf("%d",&en);
-    printf("Boy:\n");
-    scanf("%d",&boy);
+    /*
+        // DERS 22 
+        //KLAVYEDEN GİRİLEN EN VE BOY DEGERLERİNE GÖRE İÇİ DOLU DÖRTGEN
+        int en,boy,i,j;
+        printf("En degeri:");
+        scanf("%d",&en);
+        printf("Boy:\n");
+        scanf("%d",&boy);
     
     
-    for(i=1;i<=boy;i++)
-    {
-        for(j=1;j<=en;j++)
+        for(i=1;i<=boy;i++)
         {
-            printf("*");
+            for(j=1;j<=en;j++)
+            {
+                printf("*");
+            }
+            printf("\n");
         }
-        printf("\n");
-    }
-    */
-    
+     */
+
     // Klavyeden girilen boy degerine göre dik ücgen
-    
+
     /*
     int i,j,taban;
     printf("Taban degerini giriniz:\n");
@@ -53,9 +53,9 @@ int main() {
         printf("\n");
     }
      */
-    
+
     //ici dolu ücgen oluşturma
-    
+
     /*
     //taban degerini klavyeden girerek simetrigini yapan program yap
     int i,j,taban;
@@ -69,7 +69,7 @@ int main() {
         }
         printf("\n");
     }
-    */
+     */
     /*
     //ici dolu ücgen oluşturma
     int i,j,yildizsayisi=1,bosluksayisi=10;
@@ -87,8 +87,8 @@ int main() {
        yildizsayisi+=2;
        bosluksayisi--;
    }
-    */
-   
+     */
+
     /*
     int i,j,satirsayisi,yildizsayisi,bosluksayisi;
     printf("Satır sayısını giriniz:\n");
@@ -127,38 +127,32 @@ int main() {
         yildizsayisi++;
         bosluksayisi--;
     }
-    */
-    
-int n=0, i=0, a=0, b=8,t;
-for(t=0;t<7;t++)
-{
-if(t<=3)
-{i++;b-=2;}
+     */
 
-else if(t>3)
-    
-{i--;b+=2;}
+    int n = 0, i = 0, a = 0, b = 8, t;
+    for (t = 0; t < 7; t++) {
+        if (t <= 3) {
+            i++;
+            b -= 2;
+        }
+        else if (t > 3)
+ {
+            i--;
+            b += 2;
+        }
 
-for(n=0;n<i;n++)
-{
-printf("*");
-}
-for(a=0;a<b;a++)
-{
-printf(" ");
-}
-for(n=0;n<i;n++)
-{
-printf("*");
-}
-printf("\n");
-}
+        for (n = 0; n < i; n++) {
+            printf("*");
+        }
+        for (a = 0; a < b; a++) {
+            printf(" ");
+        }
+        for (n = 0; n < i; n++) {
+            printf("*");
+        }
+        printf("\n");
+    }
 
-    
-    
-    
-    
-    
     return (EXIT_SUCCESS);
 
 }
