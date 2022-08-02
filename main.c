@@ -127,7 +127,7 @@ int main() {
         yildizsayisi++;
         bosluksayisi--;
     }
-     */
+     
 
     int n = 0, i = 0, a = 0, b = 8, t;
     for (t = 0; t < 7; t++) {
@@ -152,7 +152,22 @@ int main() {
         }
         printf("\n");
     }
-
+*/
+    //DERS 23 ÇOK BOYUTLU DİZİİLER
+    
+    int dizi[2][2];
+    dizi[0][0]=10; //diizinin [0][0] degerini 10 yaptık
+    dizi[0][1]=20;
+    dizi[1][0]=30;
+    dizi[1][1]=40;
+    
+    printf("Matrisin 0-0 da bulunan elemanı:%d\n",dizi[0][0]);
+    printf("Matrisin 0-1 de bulunan elemanı:%d\n",dizi[0][1]);
+    printf("Matrisin 1-0 da bulunan elemanı:%d\n",dizi[1][0]);
+    printf("Matrisin 1-1 de bulunan elemanı:%d\n",dizi[1][1]);
+    
+    printf("10  20 \n30  40");
+    
     return (EXIT_SUCCESS);
 
 }
