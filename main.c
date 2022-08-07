@@ -168,7 +168,7 @@ int main() {
     
     printf("dizi[0][0]: %d", dizi[0][0]);
     */
-    
+    /*
     int satir,sutun,i,j,k,n;
     printf("Satir SAyisi:");
     scanf("%d",&satir);
@@ -190,6 +190,30 @@ int main() {
         {
             printf("%d",matris[k][n]);
             
+        }
+        printf("\n");
+    }
+     * 
+     * 
+     * 
+     */
+    int m1[2][2]={10,12,14,20};
+    int m2[2][2]={8,16,27,15};
+    int toplam[2][2];
+    int i,j,k,m;
+    for (i=0;i<2;i++)
+    {
+        for(j=0;j<2;j++)
+        {
+            toplam[i][j]=m1[i][j]+m2[i][j];
+            
+        }
+    }
+    for(k=0;k<2;k++)
+    {
+        for(m=0;m<2;m++)
+        {
+            printf(" %d ",toplam[k][m]);
         }
         printf("\n");
     }
