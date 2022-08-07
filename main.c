@@ -154,7 +154,7 @@ int main() {
     }
 */
     //DERS 23 ÇOK BOYUTLU DİZİİLER
-    
+    /*
     int dizi[2][2];
     dizi[0][0]=10; //diizinin [0][0] degerini 10 yaptık
     dizi[0][1]=20;
@@ -167,7 +167,32 @@ int main() {
     printf("Matrisin 1-1 de bulunan elemanı:%d\n",dizi[1][1]);
     
     printf("dizi[0][0]: %d", dizi[0][0]);
+    */
     
+    int satir,sutun,i,j,k,n;
+    printf("Satir SAyisi:");
+    scanf("%d",&satir);
+    printf("Sutun SAyisi:");
+    scanf("%d",sutun);
+    int matris[satir][sutun];
+    
+    for(i=0;i<satir;i++)
+    {
+        for(j=0;j<sutun;j++)
+        {
+            printf("\n Deger:[%d][%d]--->",i+1,j+1);
+            scanf("%d",&matris[i][j]);
+        }
+    }
+    for(k=0;k<satir;k++)
+    {
+        for(n=0;n<sutun;n++)
+        {
+            printf("%d",matris[k][n]);
+            
+        }
+        printf("\n");
+    }
     return (EXIT_SUCCESS);
 
 }
