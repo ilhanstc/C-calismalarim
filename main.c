@@ -166,7 +166,7 @@ int main() {
     printf("Matrisin 1-0 da bulunan elemanı:%d\n",dizi[1][0]);
     printf("Matrisin 1-1 de bulunan elemanı:%d\n",dizi[1][1]);
     
-    printf("10  20 \n30  40");
+    printf("dizi[0][0]: %d", dizi[0][0]);
     
     return (EXIT_SUCCESS);
 
