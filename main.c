@@ -196,7 +196,7 @@ int main() {
      * 
      * 
      * 
-     */
+     
     int m1[2][2]={10,12,14,20};
     int m2[2][2]={8,16,27,15};
     int toplam[2][2];
@@ -217,6 +217,37 @@ int main() {
         }
         printf("\n");
     }
+     */
+    int m1[2][2]={10,20,30,40};
+    int m2[2][2]={5,10,15,2};
+    int m3[2][2]={2,4,6,8};
+    int m4[2][2]={12,10,9,8};
+    int toplam[2][2];
+    int i,j,k,l;
+    //k ve l matrisleri yazdırmak için kullanılacak.
+    // j ve i matrisleri toplamak için kullanılacak
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<2;j++)
+        {
+            toplam[i][j]=m1[i][j]+m2[i][j]+m3[i][j]+m4[i][j];
+        }
+    }
+    // matrisleri yazdırmak için;
+    for(k=0;k<2;k++)
+    {
+        for(l=0;l<2;l++)
+        {
+            printf(" %d",toplam[k][l]);
+        }
+        printf("\n");
+    }
+        
+    
+    
+    
+    
     return (EXIT_SUCCESS);
+}  
+    
 
-}
